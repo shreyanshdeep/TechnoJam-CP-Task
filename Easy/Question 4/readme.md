@@ -13,11 +13,11 @@ Of course, the number of characters "r" should equal x and the number of charact
 ```
 rfrfrr
 ```
-## Sample Input 1
+## Sample Input 2
 ```
 3 3
 ```
-## Sample Output 1
+## Sample Output 2
 ```
 rfrfrfr
 ``` 
