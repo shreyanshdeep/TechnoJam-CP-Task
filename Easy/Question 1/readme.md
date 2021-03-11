@@ -1,34 +1,27 @@
+Rob Stark is a prisoner in King's Landing and has demanded a trial by combat where he will fight against any opponent that Cersei Lannister choses.Cersei decided that Rob will face either of The Mountain, The Hound, Jaime and tywin.  Now Rob is standing in the ring facing North Initially with The Mountain standing in the north side, the hound in the south side, Jaime in the west side and Tywin in the east side of the ring.   Cersei gives Rob a binary String consisting only of 0,s  and 1’s. Rob starts  reading the binary string facing north initially . When he sees a '0', he turns 
+90 degrees to his right. When he sees a '1', he turns 90 degrees to his left.After reading the entire string, which opponent will Rob face?
 
-As usual Leonard is being mocked by Sheldon for being the stupidest person in his house and to prove this he gives Leonard a task. He gives Leonard a string S, and leonard is  allowed to choose exactly one substring from S and shift all its characters 1 backward. Example- ‘a’->’z, ‘c’->b , ‘z’->’a’ and so on. He is allowed to perform this operation only once and have to find out the lexicographically minimum string that can be obtained from S. Can you help Leonard?
+### Input format
+The first line contains an integer t denoting the number of test cases. Then t test cases follow.  The first line of each test case contains a single integer n denoting the size of the string. The second line of the test case of the string is consisting only of 0’s and 1’s.
 
-### Input
-First line contains the number of test cases T. Then T line follows, each containing a string S.
-### Output format
-For every test Case print the lexicographically minimum string in a separate line.
+### Output Format
+For each test case output 1 line which will be the opponent that rob will face.
+Print names as(hound, mountain, jaime, tywin)
 
-## Sample Input 1
+## Sample Test Case Input  1
 ```
 3
-technojam
-galgotia
-bncdenqbdr
+4
+1010
+5
+00000
+3
+111
 ```
 
-## Sample output 1:
+## Sample Test Case Output 1
 ```
-sdbgmniam
-falgotia
-ambcdmpacq
-```
-
-
-## Sample Input 2:
-```
-1
-babbbabaababbaa
-```
-
-## Sample output 2:
-```
-aabbbabaababbaa
+tywin
+hound
+hound
 ```
