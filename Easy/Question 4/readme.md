@@ -30,5 +30,5 @@ Since the sum of prime numbers in the array is 60, which has only unique element
 NO
 ```
 
-###Sample Case 1 Explanation
+### Sample Case 1 Explanation
 Since the sum of prime numbers in the array is 22, which has 2 same elements , hence output is “NO”.
