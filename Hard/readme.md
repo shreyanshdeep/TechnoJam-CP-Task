@@ -21,5 +21,29 @@ Output a single number — the minimum complexity of the row.
 2
 ```
 
+### Sample Input 2
+```
+7
+1 0 0 5 0 0 2
+```
+
+### Sample Output 2
+```
+1
+```
+
+### Sample Input 3
+```
+20
+1 0 0 13 0 0 16 0 0 4 0 0 7 0 19 0 0 10 0 0
+```
+
+### Sample Output 3
+```
+3
+```
+
+
+
 
 
